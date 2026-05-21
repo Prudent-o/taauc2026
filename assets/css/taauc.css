@@ -2,7 +2,7 @@
   --default-font: "IBM Plex Sans", sans-serif;
   --heading-font: "Cormorant Garamond", serif;
   --nav-font: "IBM Plex Sans", sans-serif;
-  --background-color: #f7f4ee;
+  --background-color: #ffffff;
   --default-color: #2d2e32;
   --heading-color: #13213f;
   --accent-color: #b04a2d;
@@ -13,7 +13,7 @@
 }
 
 body {
-  background: #f7f4ee;
+  background: #ffffff;
 }
 
 body.scrolled .header {
@@ -608,7 +608,7 @@ body.scrolled .header {
 }
 
 .footer {
-  background: #f7f4ee;
+  background: #ffffff;
   border-top: 1px solid rgba(19, 33, 63, 0.12);
 }
 
