@@ -5,8 +5,10 @@ Static GitHub Pages site for the Trustworthy Agentic AI Challenge 2026.
 Live site target:
 - `https://prudent-o.github.io/taauc2026/`
 
-Main pages:
+Main entry:
 - `index.html`
+
+Legacy links kept as lightweight redirects:
 - `overview.html`
 - `tracks.html`
 - `track-medical.html`
