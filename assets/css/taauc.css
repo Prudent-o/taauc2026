@@ -380,7 +380,8 @@ body.scrolled .header {
 .page-hero .container {
   position: relative;
   z-index: 2;
-  padding-bottom: 48px;
+  padding-top: 42px;
+  padding-bottom: 40px;
 }
 
 .page-hero .container h1 {
@@ -671,6 +672,11 @@ body.scrolled .header {
     object-fit: contain;
     object-position: center center;
   }
+
+  .page-hero .container {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -689,5 +695,10 @@ body.scrolled .header {
 
   .page-hero .container h1 {
     line-height: 1;
+  }
+
+  .page-hero .container {
+    padding-top: 28px;
+    padding-bottom: 28px;
   }
 }
