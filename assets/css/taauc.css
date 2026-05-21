@@ -373,7 +373,7 @@ body.scrolled .header {
 }
 
 .page-hero img {
-  object-fit: contain;
+  object-fit: cover;
   object-position: center center;
   background: #091225;
 }
@@ -564,9 +564,9 @@ body.scrolled .header {
 .venue-visual {
   width: 100%;
   height: auto;
-  aspect-ratio: auto;
+  aspect-ratio: 16 / 9;
   max-height: 520px;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 0;
   margin-bottom: 18px;
   background: transparent;
@@ -680,7 +680,7 @@ body.scrolled .header {
   }
 
   .page-hero img {
-    object-fit: contain;
+    object-fit: cover;
     object-position: center center;
   }
 
