@@ -4,46 +4,31 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>TAAUC 2026 | Trustworthy Agentic AI Challenge</title>
-  <meta name="description" content="Trustworthy Agentic AI Challenge 2026, a workshop-hosted challenge at UbiComp/ISWC 2026 in Shanghai.">
-  <meta name="keywords" content="Trustworthy AI, AI Agents, UbiComp, Challenge">
-  <link rel="canonical" href="https://prudent-o.github.io/taauc2026/">
-  <link rel="icon" type="image/svg+xml" href="assets/img/site/taauc-mark.svg">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+  <title>Trustworthy Agentic AI Challenge 2026</title>
+  <meta name="description" content="Workshop-hosted challenge website for trustworthy agentic AI in ubiquitous computing at UbiComp/ISWC 2026.">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
-  <link href="assets/css/taauc.css" rel="stylesheet">
+  <link href="site.css" rel="stylesheet">
 </head>
 
 <body class="index-page">
-
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
-      <a href="index.html" class="logo d-flex align-items-center me-auto site-brand">
-        <img src="assets/img/site/taauc-mark.svg" alt="TAAUC 2026">
-        <div class="brand-text">
-          <span class="brand-kicker">UbiComp/ISWC 2026</span>
-          <h1 class="sitename">TAAUC 2026</h1>
-        </div>
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">TAAUC 2026</h1>
       </a>
-
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="overview.html">Overview</a></li>
           <li><a href="tracks.html">Tracks</a></li>
-          <li><a href="timeline.html">Dates</a></li>
-          <li><a href="program.html">Program</a></li>
-          <li><a href="organizers.html">Organizers</a></li>
+          <li><a href="dates.html">Dates</a></li>
           <li><a href="participation.html">Participation</a></li>
+          <li><a href="program.html">Program</a></li>
+          <li><a href="event-setting.html">Event Setting</a></li>
+          <li><a href="organizers.html">Organizers</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -52,49 +37,40 @@
   </header>
 
   <main class="main">
-    <section id="hero" class="hero section dark-background">
-      <img src="assets/img/site/hero-shanghai-blue-night.jpg" alt="Shanghai skyline at night">
-      <div class="container d-flex flex-column align-items-center text-center mt-auto" data-aos="fade-up">
+    <section class="hero section dark-background challenge-hero">
+      <img src="assets/img/site/home.webp" alt="Shanghai skyline at night">
+      <div class="container hero-panel" data-aos="fade-up" data-aos-delay="100">
         <p class="hero-kicker">Workshop-Hosted Challenge at UbiComp/ISWC 2026</p>
         <h1>Trustworthy Agentic AI Challenge 2026</h1>
-        <p data-aos="fade-up" data-aos-delay="120">Shanghai, China · one-day workshop program · public challenge website</p>
-        <div class="hero-summary" data-aos="fade-up" data-aos-delay="180">
-          <p>
-            This website is the public home for a workshop-hosted challenge on trustworthy agent systems in ubiquitous computing.
-            The first public release focuses on two confirmed tracks: the <strong>Medical Agent Track</strong> and the
-            <strong>Text Privacy Compliance Track</strong>. The full task packages are still being finalized, so the site
-            is structured as a stable entry point for updates, schedules, organizer information, and later technical releases.
-          </p>
-          <div class="hero-meta">
-            <span class="hero-chip">Two confirmed tracks</span>
-            <span class="hero-chip">Workshop program in Shanghai</span>
-            <span class="hero-chip">Detailed rules coming with track packages</span>
-          </div>
+        <p class="hero-summary">
+          This website introduces the public structure for a workshop-hosted challenge on trustworthy
+          agentic AI in ubiquitous computing. Two tracks are already fixed: a Medical Agent Track and a
+          Text Privacy Compliance Track. Detailed task packages for both tracks will be released as soon
+          as the final technical proposals are delivered.
+        </p>
+        <div class="hero-actions">
+          <a class="cta-btn" href="tracks.html">Explore Tracks</a>
+          <a class="cta-btn cta-secondary" href="program.html">Workshop Program</a>
         </div>
       </div>
-
-      <div class="about-info mt-auto position-relative">
-        <div class="container position-relative" data-aos="fade-up">
-          <div class="row">
-            <div class="col-lg-6">
-              <h2>About the Challenge</h2>
-              <p>
-                The challenge is organized with our workshop on trustworthy agentic AI in ubiquitous computing.
-                It is not a separate event. The challenge is designed to feed into the workshop discussion,
-                invited talks, spotlight sessions, and awards.
-              </p>
-              <p>
-                The current website stays concise on the homepage and pushes details into separate pages.
-                That keeps the site readable now and leaves clean room for the final track-specific material.
-              </p>
+      <div class="hero-bottom">
+        <div class="container">
+          <div class="hero-facts">
+            <div class="hero-fact">
+              <span class="hero-fact-label">Format</span>
+              <strong>Workshop-attached challenge</strong>
             </div>
-            <div class="col-lg-3">
-              <h3>Where</h3>
-              <p>UbiComp/ISWC 2026 workshops<br>Shanghai, China</p>
+            <div class="hero-fact">
+              <span class="hero-fact-label">Location</span>
+              <strong>Shanghai, China</strong>
             </div>
-            <div class="col-lg-3">
-              <h3>When</h3>
-              <p>October 2026<br>one-day workshop schedule</p>
+            <div class="hero-fact">
+              <span class="hero-fact-label">Status</span>
+              <strong>Public structure online</strong>
+            </div>
+            <div class="hero-fact">
+              <span class="hero-fact-label">Tracks</span>
+              <strong>2 confirmed tracks</strong>
             </div>
           </div>
         </div>
@@ -103,103 +79,96 @@
 
     <section class="section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>What is already public</h2>
-        <p>The homepage stays light. Each major topic now has its own page so later updates do not crowd the main entry point.</p>
+        <h2>Challenge Home</h2>
+        <p>
+          The site goes online early so teams already have a stable public entry point. The structure,
+          workshop linkage, program page, organizer information, and contact flow are fixed. Detailed
+          track rules, data, baselines, and evaluation scripts will be added on the corresponding pages.
+        </p>
       </div>
-
       <div class="container">
-        <div class="row grid-gap">
-          <div class="col-lg-4">
-            <div class="info-card h-100" data-aos="fade-up" data-aos-delay="50">
-              <h3>Challenge scope</h3>
-              <p>The challenge focuses on trustworthy agent behavior in realistic workflows. The first release keeps the scope clear without inventing details that are not finalized yet.</p>
-              <a class="link-arrow" href="overview.html">Open overview <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="info-card h-100" data-aos="fade-up" data-aos-delay="100">
-              <h3>Track pages</h3>
-              <p>Each confirmed track already has its own page. That is where the final task statement, starter material, and evaluation notes will be released.</p>
-              <a class="link-arrow" href="tracks.html">Browse tracks <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="info-card h-100" data-aos="fade-up" data-aos-delay="150">
-              <h3>Workshop linkage</h3>
-              <p>The planned workshop program, invited speakers, and organizer information are already separated into their own pages.</p>
-              <a class="link-arrow" href="program.html">See program <i class="bi bi-arrow-right"></i></a>
-            </div>
+        <div class="info-grid" data-aos="fade-up" data-aos-delay="100">
+          <article class="info-card">
+            <h3>What the challenge studies</h3>
+            <p>
+              We focus on agent systems that must remain useful, safe, and policy-consistent in realistic
+              workflows. The challenge is designed around evaluation settings that matter in practice.
+            </p>
+          </article>
+          <article class="info-card">
+            <h3>What is already public</h3>
+            <p>
+              The home page, track structure, timeline page, participation route, workshop program,
+              organizer list, and contact information are ready for public release.
+            </p>
+          </article>
+          <article class="info-card">
+            <h3>What will be added next</h3>
+            <p>
+              Each track page will be expanded with a task definition, data description, metrics,
+              baselines, starter materials, submission rules, and FAQ updates.
+            </p>
+          </article>
+        </div>
+
+        <div class="content-shell quick-links" data-aos="fade-up" data-aos-delay="150">
+          <div class="quick-link-grid">
+            <a class="quick-link-card" href="overview.html">
+              <span class="quick-link-label">Overview</span>
+              <h3>Read the public rationale and release logic</h3>
+              <p>Why the challenge exists, what this early site fixes, and how the public pages will grow.</p>
+            </a>
+            <a class="quick-link-card" href="tracks.html">
+              <span class="quick-link-label">Tracks</span>
+              <h3>See the two confirmed challenge tracks</h3>
+              <p>Medical Agent and Text Privacy Compliance, each with a separate placeholder structure.</p>
+            </a>
+            <a class="quick-link-card" href="dates.html">
+              <span class="quick-link-label">Dates</span>
+              <h3>Follow the current workshop-linked timeline</h3>
+              <p>Website launch, rule release, participation window, evaluation, and workshop spotlight.</p>
+            </a>
+            <a class="quick-link-card" href="program.html">
+              <span class="quick-link-label">Program</span>
+              <h3>Keep the challenge and workshop pages aligned</h3>
+              <p>The schedule, invited speakers, and spotlight format follow the workshop proposal.</p>
+            </a>
           </div>
         </div>
-      </div>
-    </section>
 
-    <section class="section light-background">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Confirmed Tracks</h2>
-        <p>The challenge currently has two confirmed tracks. Both are public now, even though the full technical packages are still pending.</p>
-      </div>
-
-      <div class="container">
-        <div class="row grid-gap">
-          <div class="col-lg-6">
-            <div class="track-slab h-100" data-aos="fade-up" data-aos-delay="80">
-              <span class="track-tag">Track 1</span>
-              <h3>Medical Agent Track</h3>
-              <p>
-                This track focuses on trustworthy agent behavior in medical or health-related workflows.
-                It centers on safe action, reliable reasoning, protocol compliance, and appropriate intervention behavior.
-              </p>
-              <a class="link-arrow" href="track-medical.html">Track page <i class="bi bi-arrow-right"></i></a>
-            </div>
+        <div class="content-shell status-shell" data-aos="fade-up" data-aos-delay="200">
+          <div class="section-copy">
+            <h3>Current public status</h3>
+            <ul class="plain-list">
+              <li>Two tracks are confirmed: Medical Agent and Text Privacy Compliance.</li>
+              <li>The challenge is presented as a workshop-hosted activity for UbiComp/ISWC 2026.</li>
+              <li>The current program page preserves the invited speaker lineup and draft schedule.</li>
+              <li>Detailed technical packages are pending the final track proposals.</li>
+            </ul>
           </div>
-          <div class="col-lg-6">
-            <div class="track-slab h-100" data-aos="fade-up" data-aos-delay="140">
-              <span class="track-tag">Track 2</span>
-              <h3>Text Privacy Compliance Track</h3>
-              <p>
-                This track focuses on compliant handling of sensitive information in text.
-                It centers on privacy protection, policy consistency, and preservation of required utility after processing.
-              </p>
-              <a class="link-arrow" href="track-privacy.html">Track page <i class="bi bi-arrow-right"></i></a>
-            </div>
+          <div class="section-copy">
+            <h3>Next update points</h3>
+            <ul class="plain-list">
+              <li>Task definitions and benchmark scope for each track.</li>
+              <li>Starter kits, baselines, evaluation scripts, and submission templates.</li>
+              <li>Final challenge calendar once both track teams confirm delivery windows.</li>
+              <li>Room and onsite logistics after the conference releases the official workshop schedule.</li>
+            </ul>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="callout-panel" data-aos="fade-up">
-          <h3>Current release status</h3>
-          <p>
-            The website structure is already stable enough for public use. What will change next is the technical material:
-            task definitions, baselines, official rules, submission instructions, and evaluation scripts.
-            Those updates will land on the relevant track pages rather than being pushed into a single dense homepage.
-          </p>
         </div>
       </div>
     </section>
   </main>
 
-  <footer id="footer" class="footer">
-    <div class="container footer-top pt-5 pb-3">
-      <h3 class="footer-brand">TAAUC 2026</h3>
-      <p class="footer-note">
-        Trustworthy Agentic AI Challenge 2026. Workshop-hosted challenge website prepared for UbiComp/ISWC 2026 in Shanghai.
-      </p>
-      <p class="footer-credits">
-        Visuals use free Unsplash photography under the <a href="https://unsplash.com/license">Unsplash License</a>.
-      </p>
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>Trustworthy Agentic AI Challenge 2026</p>
+      <p>Workshop-hosted challenge website draft for UbiComp/ISWC 2026</p>
     </div>
   </footer>
 
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 

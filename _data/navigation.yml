@@ -1,0 +1,29 @@
+# main links links
+main:
+  - title_zh: "Overview"
+    title_en: "Overview"
+    url: "/#overview"
+
+  - title_zh: "Tracks"
+    title_en: "Tracks"
+    url: "/#tracks"
+
+  - title_zh: "Timeline"
+    title_en: "Timeline"
+    url: "/#timeline"
+
+  - title_zh: "Participation"
+    title_en: "Participation"
+    url: "/#participation"
+
+  - title_zh: "Program"
+    title_en: "Program"
+    url: "/#program"
+
+  - title_zh: "FAQ"
+    title_en: "FAQ"
+    url: "/#faq"
+
+  - title_zh: "Contact"
+    title_en: "Contact"
+    url: "/#contact"

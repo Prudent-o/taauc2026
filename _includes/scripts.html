@@ -1,0 +1,26 @@
+<script src="{{ 'assets/js/main.min.js' | relative_url }}"></script>
+<script>
+  (function() {
+    function setLang(lang) {
+      document.documentElement.setAttribute('data-lang', lang);
+      localStorage.setItem('homepage-lang', lang);
+      var buttons = document.querySelectorAll('[data-set-lang]');
+      buttons.forEach(function(button) {
+        button.classList.toggle('is-active', button.getAttribute('data-set-lang') === lang);
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var current = document.documentElement.getAttribute('data-lang') || 'en';
+      setLang(current);
+      document.querySelectorAll('[data-set-lang]').forEach(function(button) {
+        button.addEventListener('click', function() {
+          setLang(button.getAttribute('data-set-lang'));
+        });
+      });
+    });
+  })();
+</script>
+
+{% include analytics.html %}
+{% include fetch_google_scholar_stats.html %}
