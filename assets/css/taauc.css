@@ -384,6 +384,11 @@ body.scrolled .header {
   padding-bottom: 40px;
 }
 
+.page-hero.page-hero-tight .container {
+  padding-top: 10px;
+  padding-bottom: 32px;
+}
+
 .page-hero .container h1 {
   max-width: 980px;
   font-size: clamp(46px, 6vw, 76px);
@@ -555,11 +560,12 @@ body.scrolled .header {
   width: 100%;
   height: auto;
   aspect-ratio: auto;
-  max-height: 480px;
+  max-height: 520px;
   object-fit: contain;
   border-radius: 0;
   margin-bottom: 18px;
-  background: #091225;
+  background: transparent;
+  display: block;
 }
 
 .venue-card h3 {
@@ -677,6 +683,11 @@ body.scrolled .header {
     padding-top: 34px;
     padding-bottom: 34px;
   }
+
+  .page-hero.page-hero-tight .container {
+    padding-top: 6px;
+    padding-bottom: 28px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -700,5 +711,10 @@ body.scrolled .header {
   .page-hero .container {
     padding-top: 28px;
     padding-bottom: 28px;
+  }
+
+  .page-hero.page-hero-tight .container {
+    padding-top: 2px;
+    padding-bottom: 22px;
   }
 }
