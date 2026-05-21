@@ -2,86 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Overview | Trustworthy Agentic AI Challenge 2026</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Overview | TAAUC 2026</title>
   <meta name="description" content="Overview of the Trustworthy Agentic AI Challenge 2026.">
-  <link rel="stylesheet" href="site.css">
+  <link rel="icon" type="image/svg+xml" href="assets/img/site/taauc-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/taauc.css" rel="stylesheet">
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap nav-shell">
-      <a class="brand" href="index.html">Trustworthy Agentic AI Challenge 2026</a>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="overview.html" class="is-current">Overview</a>
-        <a href="tracks.html">Tracks</a>
-        <a href="timeline.html">Timeline</a>
-        <a href="participation.html">Participation</a>
-        <a href="program.html">Program</a>
-        <a href="faq.html">FAQ</a>
-        <a href="contact.html">Contact</a>
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center me-auto site-brand">
+        <img src="assets/img/site/taauc-mark.svg" alt="TAAUC 2026">
+        <div class="brand-text">
+          <span class="brand-kicker">UbiComp/ISWC 2026</span>
+          <h1 class="sitename">TAAUC 2026</h1>
+        </div>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="overview.html" class="active">Overview</a></li>
+          <li><a href="tracks.html">Tracks</a></li>
+          <li><a href="timeline.html">Dates</a></li>
+          <li><a href="program.html">Program</a></li>
+          <li><a href="organizers.html">Organizers</a></li>
+          <li><a href="participation.html">Participation</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section class="page-hero">
-      <div class="wrap">
-        <p class="eyebrow">Overview</p>
-        <h1>What this challenge is and why the site is already public</h1>
-        <p class="page-intro">
-          This challenge is attached to our workshop on trustworthy agentic AI in ubiquitous computing. The website is intentionally online before the final track proposals are complete, because recent workshop-attached challenge sites usually benefit from an early public landing page with stable structure, organizer contacts, and timeline anchors.
-        </p>
+  <main class="main">
+    <div class="page-title dark-background" style="background-image: url('assets/img/site/header-shanghai-river-night.jpg');">
+      <div class="container position-relative">
+        <p class="page-kicker">Workshop-Hosted Challenge</p>
+        <h1>Overview</h1>
+        <p class="page-lead">The website is public early on purpose. It marks what is already fixed, what is still pending, and where later technical updates will appear.</p>
+        <nav class="breadcrumbs">
+          <ol><li><a href="index.html">Home</a></li><li>Overview</li></ol>
+        </nav>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Current scope</h2>
+        <p>The challenge is organized with our workshop on trustworthy agentic AI in ubiquitous computing. It already has a public structure, even though the track packages are still being finalized.</p>
+      </div>
+      <div class="container">
+        <div class="row grid-gap">
+          <div class="col-lg-4"><div class="info-card h-100"><h3>Workshop linkage</h3><p>The challenge is part of the workshop program. It is designed to feed into invited talks, oral spotlight sessions, and final discussion.</p></div></div>
+          <div class="col-lg-4"><div class="info-card h-100"><h3>Confirmed tracks</h3><p>The public site currently reflects two confirmed tracks: Medical Agent and Text Privacy Compliance.</p></div></div>
+          <div class="col-lg-4"><div class="info-card h-100"><h3>Pending material</h3><p>Detailed task definitions, baselines, data access notes, and official scoring rules will be added when the track teams complete their final packages.</p></div></div>
+        </div>
       </div>
     </section>
 
-    <section class="section">
-      <div class="wrap">
-        <div class="card-grid three-up">
-          <article class="card">
-            <h3>Workshop linkage</h3>
-            <p>The challenge is not a separate event. It is hosted as part of the workshop program and is designed to feed into the workshop spotlight, discussion, and award sessions.</p>
-          </article>
-          <article class="card">
-            <h3>Current confirmed scope</h3>
-            <p>Two tracks are already confirmed: one focused on medical agents and one focused on compliant handling of private information in text.</p>
-          </article>
-          <article class="card">
-            <h3>What is still pending</h3>
-            <p>Task definitions, datasets, baselines, scoring rules, and final submission formats will be inserted once the two track teams finish their proposals.</p>
-          </article>
-        </div>
-
-        <div class="split-panel top-gap">
-          <div>
-            <h3>Design principle</h3>
-            <p>
-              The site is deliberately decomposed into separate pages. The homepage serves as a clean entry point. Each major topic now has its own page. Each track also has its own dedicated page so that later updates do not crowd the homepage or force unrelated sections to change together.
-            </p>
+    <section class="section light-background">
+      <div class="container">
+        <div class="row grid-gap align-items-stretch">
+          <div class="col-lg-6">
+            <div class="track-slab h-100">
+              <h3>Why the site is already online</h3>
+              <p>
+                Recent workshop-hosted challenge websites work better when the public structure appears early.
+                That gives participants a stable place for dates, organizer contacts, and track release updates.
+                It also prevents the homepage from becoming a single crowded announcement page later.
+              </p>
+            </div>
           </div>
-          <div>
-            <h3>What will be added later</h3>
-            <ul>
-              <li>Official task pages and data access notes</li>
-              <li>Submission instructions and templates</li>
-              <li>Baseline systems and starter kits</li>
-              <li>Metric definitions and evaluation scripts</li>
-              <li>Leaderboard and award information</li>
-            </ul>
+          <div class="col-lg-6">
+            <div class="track-slab h-100">
+              <h3>What changes next</h3>
+              <ul class="bullet-list">
+                <li>Final task statements for both tracks</li>
+                <li>Starter kits and baseline material</li>
+                <li>Official submission instructions</li>
+                <li>Scoring rules and evaluation notes</li>
+                <li>Clarification updates during the challenge period</li>
+              </ul>
+            </div>
           </div>
-        </div>
-
-        <div class="callout">
-          <strong>Current public position.</strong> The website is already suitable for public announcement. It clearly states what is fixed, what is still placeholder, and where later technical updates will go.
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap footer-inner">
-      <p>Trustworthy Agentic AI Challenge 2026</p>
-      <p>Overview page</p>
-    </div>
-  </footer>
+  <footer id="footer" class="footer"><div class="container footer-top pt-5 pb-3"><p class="footer-credits">TAAUC 2026 overview page.</p></div></footer>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
