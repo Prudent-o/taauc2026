@@ -365,7 +365,7 @@ body.scrolled .header {
   aspect-ratio: 16 / 9;
   min-height: 360px;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   background-color: #091225;
   background-size: contain !important;
   background-repeat: no-repeat;
@@ -373,7 +373,8 @@ body.scrolled .header {
 }
 
 .page-title .container {
-  padding-bottom: 54px;
+  padding-top: 142px;
+  padding-bottom: 0;
 }
 
 .page-title::before {
@@ -627,6 +628,10 @@ body.scrolled .header {
     background-size: contain !important;
     background-position: center center;
   }
+
+  .page-title .container {
+    padding-top: 132px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -641,5 +646,9 @@ body.scrolled .header {
 
   .brand-kicker {
     letter-spacing: 0.12em;
+  }
+
+  .page-title .container {
+    padding-top: 122px;
   }
 }
