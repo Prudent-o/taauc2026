@@ -2,84 +2,99 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Text Privacy Compliance Track | Trustworthy Agentic AI Challenge 2026</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Text Privacy Compliance Track | TAAUC 2026</title>
   <meta name="description" content="Text Privacy Compliance Track for the Trustworthy Agentic AI Challenge 2026.">
-  <link rel="stylesheet" href="site.css">
+  <link rel="icon" type="image/svg+xml" href="assets/img/site/taauc-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/taauc.css" rel="stylesheet">
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap nav-shell">
-      <a class="brand" href="index.html">Trustworthy Agentic AI Challenge 2026</a>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="overview.html">Overview</a>
-        <a href="tracks.html" class="is-current">Tracks</a>
-        <a href="timeline.html">Timeline</a>
-        <a href="participation.html">Participation</a>
-        <a href="program.html">Program</a>
-        <a href="faq.html">FAQ</a>
-        <a href="contact.html">Contact</a>
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center me-auto site-brand">
+        <img src="assets/img/site/taauc-mark.svg" alt="TAAUC 2026">
+        <div class="brand-text"><span class="brand-kicker">UbiComp/ISWC 2026</span><h1 class="sitename">TAAUC 2026</h1></div>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="overview.html">Overview</a></li>
+          <li><a href="tracks.html" class="active">Tracks</a></li>
+          <li><a href="timeline.html">Dates</a></li>
+          <li><a href="program.html">Program</a></li>
+          <li><a href="organizers.html">Organizers</a></li>
+          <li><a href="participation.html">Participation</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section class="page-hero">
-      <div class="wrap">
-        <p class="eyebrow">Track 2</p>
+  <main class="main">
+    <div class="page-title dark-background" style="background-image: url('assets/img/site/header-shanghai-aerial-night.jpg');">
+      <div class="container position-relative">
+        <p class="page-kicker">Track 2</p>
         <h1>Text Privacy Compliance Track</h1>
-        <p class="page-intro">
-          This page is the placeholder entry for the text privacy compliance track. It separates the track into its own space so that policy, annotation, and scoring updates can be published without overloading the homepage.
-        </p>
+        <p class="page-lead">This page fixes the direction of the privacy track while keeping the final task-specific details open until the proposal is complete.</p>
+        <nav class="breadcrumbs"><ol><li><a href="index.html">Home</a></li><li><a href="tracks.html">Tracks</a></li><li>Text Privacy Compliance</li></ol></nav>
       </div>
-    </section>
+    </div>
 
     <section class="section">
-      <div class="wrap">
-        <div class="split-panel">
-          <div>
-            <h3>Planned focus</h3>
-            <ul>
-              <li>Compliant handling of sensitive information in text</li>
-              <li>Detection, transformation, redaction, or controlled rewriting</li>
-              <li>Policy-consistent privacy protection</li>
-              <li>Retention of required downstream utility</li>
-            </ul>
+      <div class="container">
+        <div class="row grid-gap">
+          <div class="col-lg-6">
+            <div class="track-slab h-100">
+              <h3>Planned focus</h3>
+              <ul class="bullet-list">
+                <li>Compliant handling of sensitive information in text</li>
+                <li>Detection, transformation, or controlled rewriting</li>
+                <li>Policy-consistent privacy protection</li>
+                <li>Retention of required downstream utility</li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <h3>Expected evaluation dimensions</h3>
-            <ul>
-              <li>Privacy protection quality</li>
-              <li>Compliance quality and policy consistency</li>
-              <li>Utility preservation after processing</li>
-              <li>Robustness to hard, ambiguous, or adversarial cases</li>
-            </ul>
+          <div class="col-lg-6">
+            <div class="track-slab h-100">
+              <h3>Expected evaluation axes</h3>
+              <ul class="bullet-list">
+                <li>Privacy protection quality</li>
+                <li>Compliance quality and policy consistency</li>
+                <li>Utility preservation after processing</li>
+                <li>Robustness to hard or ambiguous cases</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="info-card h-100">
+              <h3>Likely submission forms</h3>
+              <p>Compliance pipelines, agent workflows, rewriting or redaction systems, validation modules, or privacy-specific evaluation tools.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="info-card h-100">
+              <h3>What will be added later</h3>
+              <p>The final label policy, annotation guidance, baseline package, and official scoring protocol will be added when the track proposal is complete.</p>
+            </div>
           </div>
         </div>
-
-        <div class="card-grid two-up top-gap">
-          <article class="card">
-            <h3>Likely participant submissions</h3>
-            <p>Compliance pipelines, redaction or rewriting systems, agent workflows, validation modules, or track-specific evaluation tools.</p>
-          </article>
-          <article class="card">
-            <h3>What will be published later</h3>
-            <p>Official label policy, annotation standard, baseline package, submission format, and scoring protocol.</p>
-          </article>
-        </div>
-
-        <div class="callout">
-          <strong>Status.</strong> Confirmed track. Full task specification is pending the final proposal from the track team.
-        </div>
+        <p class="mini-note">Status: confirmed track, final task package pending.</p>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap footer-inner">
-      <p>Trustworthy Agentic AI Challenge 2026</p>
-      <p>Text Privacy Compliance Track page</p>
-    </div>
-  </footer>
+  <footer id="footer" class="footer"><div class="container footer-top pt-5 pb-3"><p class="footer-credits">TAAUC 2026 privacy track page.</p></div></footer>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
