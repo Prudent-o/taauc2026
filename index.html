@@ -6,26 +6,76 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>TAAUC 2026 | Trustworthy Agentic AI Challenge</title>
   <meta name="description" content="Trustworthy Agentic AI Challenge 2026, a workshop-hosted challenge at UbiComp/ISWC 2026 in Shanghai.">
-  <meta name="keywords" content="Trustworthy AI, AI Agents, UbiComp, Challenge">
+  <meta name="keywords" content="Trustworthy AI, AI Agents, UbiComp, Workshop Challenge">
+  <meta name="author" content="TAAUC 2026 Organizers">
   <link rel="canonical" href="https://prudent-o.github.io/taauc2026/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="TAAUC 2026 — Trustworthy Agentic AI Challenge">
+  <meta property="og:description" content="Workshop-hosted challenge on trustworthy agentic AI for UbiComp/ISWC 2026 in Shanghai.">
+  <meta property="og:url" content="https://prudent-o.github.io/taauc2026/">
+  <meta property="og:image" content="https://prudent-o.github.io/taauc2026/assets/img/site/hero-home.webp">
+  <meta property="og:site_name" content="TAAUC 2026">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TAAUC 2026 — Trustworthy Agentic AI Challenge">
+  <meta name="twitter:description" content="Workshop-hosted challenge on trustworthy agentic AI for UbiComp/ISWC 2026 in Shanghai.">
+  <meta name="twitter:image" content="https://prudent-o.github.io/taauc2026/assets/img/site/hero-home.webp">
+
   <link rel="icon" type="image/svg+xml" href="assets/img/site/taauc-mark.svg">
+  <link rel="apple-touch-icon" href="assets/img/site/taauc-mark.svg">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&amp;family=Raleway:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
   <link href="assets/css/main.css" rel="stylesheet">
-  <link href="assets/css/taauc.css?v=20260521k" rel="stylesheet">
+  <link href="assets/css/taauc.css?v=20260521l" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Trustworthy Agentic AI Challenge 2026",
+    "description": "A workshop-hosted challenge on trustworthy agentic AI for UbiComp/ISWC 2026 in Shanghai.",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+      "@type": "Place",
+      "name": "UbiComp/ISWC 2026 Workshops",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Shanghai",
+        "addressCountry": "CN"
+      }
+    },
+    "organizer": {
+      "@type": "Organization",
+      "name": "TAAUC 2026 Organizing Committee",
+      "url": "https://prudent-o.github.io/taauc2026/"
+    },
+    "url": "https://prudent-o.github.io/taauc2026/",
+    "image": "https://prudent-o.github.io/taauc2026/assets/img/site/hero-home.webp",
+    "superEvent": {
+      "@type": "Event",
+      "name": "UbiComp/ISWC 2026",
+      "url": "https://2026.ubicomp.org/"
+    }
+  }
+  </script>
 </head>
 
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
-      <a href="index.html" class="logo d-flex align-items-center me-auto site-brand">
+      <a href="#hero" class="site-brand me-auto">
         <img src="assets/img/site/taauc-mark.svg" alt="TAAUC 2026">
         <div class="brand-text">
           <span class="brand-kicker">UbiComp/ISWC 2026</span>
@@ -35,176 +85,389 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="overview.html">Overview</a></li>
-          <li><a href="tracks.html">Tracks</a></li>
-          <li><a href="timeline.html">Dates</a></li>
-          <li><a href="program.html">Program</a></li>
-          <li><a href="organizers.html">Organizers</a></li>
-          <li><a href="participation.html">Participation</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#tracks">Tracks</a></li>
+          <li><a href="#program">Speakers</a></li>
+          <li><a href="#schedule">Dates</a></li>
+          <li><a href="#organizers">Organizers</a></li>
+          <li><a href="#venue">Venue</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
+
+      <a class="cta-btn d-none d-xl-block" href="#contact">Contact</a>
     </div>
   </header>
 
   <main class="main">
+
     <section id="hero" class="hero section dark-background">
-      <img src="assets/img/site/hero-home.webp" alt="Shanghai skyline at night">
-      <div class="container d-flex flex-column align-items-center text-center mt-auto" data-aos="fade-up">
-        <p class="hero-kicker">Workshop-Hosted Challenge at UbiComp/ISWC 2026</p>
-        <h1>Trustworthy Agentic AI Challenge 2026</h1>
-        <p data-aos="fade-up" data-aos-delay="120">Shanghai, China · one-day workshop program · public challenge website</p>
-        <div class="hero-summary" data-aos="fade-up" data-aos-delay="180">
-          <p>
-            This website is the public home for a workshop-hosted challenge on trustworthy agent systems in ubiquitous computing.
-            The first release already fixes the overall scope, the workshop linkage, and the two confirmed tracks.
-          </p>
-          <p>
-            The current track pages stay concise on purpose. They define the direction now and leave room for the final task packages,
-            rules, baselines, and evaluation notes when each track team finishes its release.
-          </p>
-          <div class="hero-meta">
-            <span class="hero-chip">Two confirmed tracks</span>
-            <span class="hero-chip">Workshop program in Shanghai</span>
-            <span class="hero-chip">Detailed rules coming with track packages</span>
-          </div>
-        </div>
+      <img src="assets/img/site/hero-home.webp" alt="Shanghai skyline at night" data-aos="fade-in" loading="eager">
+      <div class="container d-flex flex-column align-items-center text-center mt-auto">
+        <p class="hero-kicker" data-aos="fade-up" data-aos-delay="60">Workshop-Hosted Challenge at UbiComp/ISWC 2026</p>
+        <h1 data-aos="fade-up" data-aos-delay="100">
+          Trustworthy Agentic AI Challenge 2026
+        </h1>
+        <p data-aos="fade-up" data-aos-delay="180">Shanghai, China · workshop challenge · UbiComp/ISWC 2026</p>
+        <p class="hero-note" data-aos="fade-up" data-aos-delay="240">
+          TAAUC 2026 is a workshop-hosted challenge on trustworthy agent systems for ubiquitous computing.
+          The challenge scope is fixed, and the first public release includes two confirmed tracks: a Medical Agent Track and a Text Privacy Compliance Track.
+        </p>
       </div>
 
       <div class="about-info mt-auto position-relative">
         <div class="container position-relative" data-aos="fade-up">
           <div class="row">
             <div class="col-lg-6">
-              <h2>About the Challenge</h2>
+              <h2>About TAAUC 2026</h2>
               <p>
-                The challenge is organized with our workshop on trustworthy agentic AI in ubiquitous computing.
-                It is not a separate event. The challenge is designed to feed into the workshop discussion,
-                invited talks, spotlight sessions, and awards.
+                The challenge is part of the workshop program rather than a separate event. It connects benchmark design, system evaluation,
+                invited talks, and challenge spotlights within one workshop day.
               </p>
               <p>
-                The current website stays concise on the homepage and pushes details into separate pages.
-                That keeps the site readable now and leaves clean room for the final track-specific material.
+                This website keeps one stable public entry point for track updates. Final task packages, submission rules, and evaluation scripts
+                will be added when the track teams complete their releases.
               </p>
             </div>
             <div class="col-lg-3">
               <h3>Where</h3>
-              <p>UbiComp/ISWC 2026 workshops<br>Shanghai, China</p>
+              <p>UbiComp/ISWC 2026 Workshops<br>Shanghai, China</p>
             </div>
             <div class="col-lg-3">
               <h3>When</h3>
-              <p>October 2026<br>one-day workshop schedule</p>
+              <p>October 2026<br>official workshop day to follow</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section id="overview" class="overview section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Public Structure</h2>
-        <p>The homepage stays brief. Detailed information lives on separate pages so later updates remain clear and easy to find.</p>
+        <h2>Overview</h2>
+        <p>This challenge studies trustworthy agent behavior in realistic workflows and links the public release to the workshop discussion.</p>
       </div>
 
       <div class="container">
-        <div class="row text-columns">
-          <div class="col-lg-4">
-            <div class="plain-block" data-aos="fade-up" data-aos-delay="50">
-              <span class="plain-kicker">Overview</span>
-              <h3>Challenge scope</h3>
-              <p>The challenge studies trustworthy agent behavior in realistic workflows. The current public text fixes the direction without adding details that are still under discussion.</p>
-              <a class="link-arrow" href="overview.html">Open overview <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="plain-block" data-aos="fade-up" data-aos-delay="100">
-              <span class="plain-kicker">Tracks</span>
-              <h3>Track pages</h3>
-              <p>Each confirmed track already has its own page. Final task statements, starter material, and evaluation notes will be released there.</p>
-              <a class="link-arrow" href="tracks.html">Browse tracks <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="plain-block" data-aos="fade-up" data-aos-delay="150">
-              <span class="plain-kicker">Program</span>
-              <h3>Workshop linkage</h3>
-              <p>The workshop schedule, invited speakers, participation guidance, and organizer information are already separated into their own pages.</p>
-              <a class="link-arrow" href="program.html">See program <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-        </div>
+        <h3>Current Focus</h3>
+        <ul class="topics-list">
+          <li><strong>Trustworthy agent behavior.</strong> We study systems that act, call tools, follow constraints, and adapt to changing task context.</li>
+          <li><strong>Evaluation in realistic workflows.</strong> The challenge is built around concrete tasks rather than isolated prompt-only tests.</li>
+          <li><strong>Safety, compliance, and utility.</strong> The confirmed tracks focus on reliable behavior under stronger operational requirements.</li>
+          <li><strong>Workshop linkage.</strong> Challenge design, invited talks, posters, and spotlights are planned as one connected program.</li>
+          <li><strong>Staged public release.</strong> The site is already public, while detailed task packages, baselines, and final submission rules are still being prepared.</li>
+        </ul>
       </div>
     </section>
 
-    <section class="section light-background">
+    <section id="tracks" class="cfp section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Confirmed Tracks</h2>
-        <p>The challenge currently has two confirmed tracks. Both directions are public now, while the full technical packages are still being prepared.</p>
+        <p>The first public release includes two confirmed tracks. Each track direction is fixed, and detailed task packages will follow on the same website.</p>
       </div>
 
       <div class="container">
-        <div class="row split-section">
+        <div class="row gy-4">
           <div class="col-lg-6">
-            <div class="plain-block" data-aos="fade-up" data-aos-delay="80">
-              <span class="plain-kicker">Track 1</span>
+            <div class="track-summary">
               <h3>Medical Agent Track</h3>
               <p>
-                This track focuses on trustworthy agent behavior in medical or health-related workflows.
-                It centers on safe action, reliable reasoning, protocol compliance, and appropriate intervention behavior.
+                This track studies trustworthy agent behavior in medical and health-related workflows. It focuses on safe action,
+                reliable reasoning, protocol compliance, escalation, abstention, and failure handling under higher safety requirements.
               </p>
-              <a class="link-arrow" href="track-medical.html">Track page <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="plain-block" data-aos="fade-up" data-aos-delay="140">
-              <span class="plain-kicker">Track 2</span>
+            <div class="track-summary">
               <h3>Text Privacy Compliance Track</h3>
               <p>
-                This track focuses on compliant handling of sensitive information in text.
-                It centers on privacy protection, policy consistency, and preservation of required utility after processing.
+                This track studies compliant handling of sensitive information in text. It focuses on privacy protection,
+                policy consistency, controlled transformation, and preservation of required utility after processing.
               </p>
-              <a class="link-arrow" href="track-privacy.html">Track page <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="track-summary">
+          <h3>Participation Notes</h3>
+          <ul class="plain-list">
+            <li>Academic teams, students, industry groups, and independent researchers may participate.</li>
+            <li>The current plan supports challenge participation with optional workshop-linked paper or poster material.</li>
+            <li>Official rules, submission instructions, and evaluation scripts will be posted with the final track packages.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="program" class="speakers section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Invited Speakers</h2>
+        <p>The workshop plan keeps the invited speaker lineup from the proposal and pairs it with challenge spotlights from the confirmed tracks.</p>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="member placeholder-member">
+              <img src="assets/img/site/person-placeholder.svg" class="img-fluid" loading="lazy" alt="Pan Zhou">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Pan Zhou</h4>
+                  <span>Singapore Management University</span>
+                </div>
+              </div>
+            </div>
+            <div class="talk-title small mt-2">Efficient agentic reasoning and systems.</div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="120">
+            <div class="member placeholder-member">
+              <img src="assets/img/site/person-placeholder.svg" class="img-fluid" loading="lazy" alt="Yaodong Yang">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Yaodong Yang</h4>
+                  <span>Peking University</span>
+                </div>
+              </div>
+            </div>
+            <div class="talk-title small mt-2">Alignment, safe RL, and embodied intelligence.</div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="140">
+            <div class="member placeholder-member">
+              <img src="assets/img/site/person-placeholder.svg" class="img-fluid" loading="lazy" alt="Alessio R. Lomuscio">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Alessio R. Lomuscio</h4>
+                  <span>Imperial College London</span>
+                </div>
+              </div>
+            </div>
+            <div class="talk-title small mt-2">Verification and safe autonomous systems.</div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="160">
+            <div class="member placeholder-member">
+              <img src="assets/img/site/person-placeholder.svg" class="img-fluid" loading="lazy" alt="Liping Jing">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Liping Jing</h4>
+                  <span>Beijing Jiaotong University</span>
+                </div>
+              </div>
+            </div>
+            <div class="talk-title small mt-2">Robust and Interpretable Agent Systems.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="schedule" class="schedule section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Schedule</h2>
+        <p>The schedule below follows the current one-day workshop plan. The exact workshop day will follow the official UbiComp/ISWC 2026 assignment.</p>
+      </div>
+
+      <div class="container">
+        <div class="schedule-note">
+          <h3>Schedule Note</h3>
+          <p>
+            The invited speaker lineup and challenge spotlight structure are already planned. Final timestamps may still shift with the official workshop schedule.
+          </p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div class="row schedule-item"><div class="col-md-2"><time>08:30–08:45</time></div><div class="col-md-10"><h4>Opening remarks and challenge logistics</h4></div></div>
+            <div class="row schedule-item"><div class="col-md-2"><time>08:45–09:30</time></div><div class="col-md-10"><h4>Planned keynote: Pan Zhou — Efficient Agentic Reasoning</h4></div></div>
+            <div class="row schedule-item"><div class="col-md-2"><time>09:30–10:15</time></div><div class="col-md-10"><h4>Planned keynote: Yaodong Yang — AI Alignment and Safe RL</h4></div></div>
+            <div class="row schedule-item"><div class="col-md-2"><time>10:15–10:45</time></div><div class="col-md-10"><h4>Coffee break and poster session A</h4></div></div>
+            <div class="row schedule-item"><div class="col-md-2"><time>10:45–12:00</time></div><div class="col-md-10"><h4>Challenge spotlight I: winning teams from the confirmed tracks</h4></div></div>
+            <div class="row schedule-item"><div class="col-md-2"><time>12:00–13:30</time></div><div class="col-md-10"><h4>Lunch break</h4></div></div>
+            <div class="row schedule-item"><div class="col-md-2"><time>13:30–14:15</time></div><div class="col-md-10"><h4>Planned keynote: Alessio R. Lomuscio — Safe AI Verification</h4></div></div>
+            <div class="row schedule-item"><div class="col-md-2"><time>14:15–15:00</time></div><div class="col-md-10"><h4>Planned invited talk: Liping Jing — Robust &amp; Interpretable Agent</h4></div></div>
+            <div class="row schedule-item"><div class="col-md-2"><time>15:00–15:30</time></div><div class="col-md-10"><h4>Coffee break and poster session B</h4></div></div>
+            <div class="row schedule-item"><div class="col-md-2"><time>15:30–16:30</time></div><div class="col-md-10"><h4>Challenge spotlight II: additional systems, demos, and technical Q&amp;A</h4></div></div>
+            <div class="row schedule-item"><div class="col-md-2"><time>16:30–17:00</time></div><div class="col-md-10"><h4>Awards and closing remarks</h4></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="organizers" class="speakers section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Organizing Committee</h2>
+        <p>The organizing team combines expertise in agent evaluation, privacy, mobile systems, intelligent IoT, and deployment.</p>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-xl-3 col-lg-4 col-md-6"><div class="member placeholder-member"><img src="assets/img/site/person-placeholder.svg" class="img-fluid" loading="lazy" alt="Jian Zhao"><div class="member-info"><div class="member-info-content"><h4>Jian Zhao</h4><span>TeleAI, China Telecom; Northwestern Polytechnical University</span></div></div></div></div>
+          <div class="col-xl-3 col-lg-4 col-md-6"><div class="member placeholder-member"><img src="assets/img/site/person-placeholder.svg" class="img-fluid" loading="lazy" alt="Tianle Zhang"><div class="member-info"><div class="member-info-content"><h4>Tianle Zhang</h4><span>TeleAI, China Telecom</span></div></div></div></div>
+          <div class="col-xl-3 col-lg-4 col-md-6"><div class="member placeholder-member"><img src="assets/img/site/person-placeholder.svg" class="img-fluid" loading="lazy" alt="Huilin Zhou"><div class="member-info"><div class="member-info-content"><h4>Huilin Zhou</h4><span>USTC; TeleAI</span></div></div></div></div>
+          <div class="col-xl-3 col-lg-4 col-md-6"><div class="member placeholder-member"><img src="assets/img/site/person-placeholder.svg" class="img-fluid" loading="lazy" alt="Wentao Chen"><div class="member-info"><div class="member-info-content"><h4>Wentao Chen</h4><span>CAICT</span></div></div></div></div>
+          <div class="col-xl-3 col-lg-4 col-md-6"><div class="member placeholder-member"><img src="assets/img/site/person-placeholder.svg" class="img-fluid" loading="lazy" alt="Jie Chen"><div class="member-info"><div class="member-info-content"><h4>Jie Chen</h4><span>CAICT</span></div></div></div></div>
+          <div class="col-xl-3 col-lg-4 col-md-6"><div class="member placeholder-member"><img src="assets/img/site/person-placeholder.svg" class="img-fluid" loading="lazy" alt="Feng Wei"><div class="member-info"><div class="member-info-content"><h4>Feng Wei</h4><span>Artificial Intelligence Research Institute, CAICT</span></div></div></div></div>
+          <div class="col-xl-3 col-lg-4 col-md-6"><div class="member placeholder-member"><img src="assets/img/site/person-placeholder.svg" class="img-fluid" loading="lazy" alt="Lan Zhang"><div class="member-info"><div class="member-info-content"><h4>Lan Zhang</h4><span>University of Science and Technology of China</span></div></div></div></div>
+          <div class="col-xl-3 col-lg-4 col-md-6"><div class="member placeholder-member"><img src="assets/img/site/person-placeholder.svg" class="img-fluid" loading="lazy" alt="Zhibo Wang"><div class="member-info"><div class="member-info-content"><h4>Zhibo Wang</h4><span>Zhejiang University</span></div></div></div></div>
+        </div>
+
+        <div class="row g-4 organizer-highlights">
+          <div class="col-lg-4">
+            <div class="track-summary">
+              <h3>Feng Wei</h3>
+              <p>Focus: evaluation, benchmarking, and standardization of safety and security mechanisms for large language models and AI agents.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="track-summary">
+              <h3>Lan Zhang</h3>
+              <p>Focus: data understanding, privacy protection, and data sharing and transaction for intelligent systems.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="track-summary">
+              <h3>Zhibo Wang</h3>
+              <p>Focus: intelligent IoT, AI security, data security, privacy protection, and edge-cloud foundation model systems.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section">
-      <div class="container">
-        <div class="section-note" data-aos="fade-up">
-          <p>
-            <strong>Current release status.</strong> The website structure is already stable enough for public use.
-            What changes next is the technical material: task definitions, baselines, official rules, submission instructions,
-            and evaluation scripts. Those updates will appear on the relevant track pages rather than on a single crowded homepage.
-          </p>
-        </div>
-        <div class="plain-linklist">
-          <a href="timeline.html">Dates</a>
-          <a href="participation.html">Participation</a>
-          <a href="organizers.html">Organizers</a>
-          <a href="contact.html">Contact</a>
+    <section id="venue" class="venue section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Venue</h2>
+        <p>The workshop is planned for UbiComp/ISWC 2026 in Shanghai. Final room details will follow the official conference schedule.</p>
+      </div>
+
+      <div class="container-fluid" data-aos="fade-up">
+        <div class="row g-0">
+          <div class="col-lg-6 venue-map">
+            <iframe src="https://www.google.com/maps?q=Shanghai%20International%20Convention%20Center&amp;output=embed" frameborder="0" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-lg-6 venue-info">
+            <div class="row justify-content-center">
+              <div class="col-11 col-lg-8 position-relative">
+                <h3>Shanghai, China</h3>
+                <p>Workshop venue details are still pending official assignment from the conference.</p>
+                <p>The map and image below show a representative conference setting in Shanghai rather than a final room announcement.</p>
+                <figure class="venue-photo">
+                  <img src="assets/img/site/event-setting-venue.webp" alt="Representative conference venue exterior in Shanghai" loading="lazy">
+                  <figcaption>Representative conference venue setting in Shanghai.</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
+    <section id="faq" class="faq section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+            <div class="faq-container">
+              <div class="faq-item faq-active">
+                <h3>Are the two tracks final?</h3>
+                <div class="faq-content">
+                  <p>Yes. The public website already assumes two confirmed tracks. What is still pending is the final technical package for each track.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+              <div class="faq-item faq-active">
+                <h3>Why is the website already online?</h3>
+                <div class="faq-content">
+                  <p>An early public structure gives participants one stable place for schedule updates, organizer contacts, and later track releases.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+              <div class="faq-item faq-active">
+                <h3>Will teams need a workshop paper?</h3>
+                <div class="faq-content">
+                  <p>Not necessarily. The current plan keeps room for challenge-only participation as well as workshop-linked paper or poster material.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+              <div class="faq-item faq-active">
+                <h3>What content is still pending?</h3>
+                <div class="faq-content">
+                  <p>Exact task definitions, official scoring scripts, baseline releases, and final submission instructions are still being prepared.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="100">
+              <i class="bi bi-envelope"></i>
+              <h3>Primary Contact</h3>
+              <p><a href="mailto:zhaojian90@u.nus.edu">zhaojian90@u.nus.edu</a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-envelope-paper"></i>
+              <h3>Secondary Contact</h3>
+              <p><a href="mailto:zhangtianle95@gmail.com">zhangtianle95@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-geo-alt"></i>
+              <h3>Location</h3>
+              <p>UbiComp/ISWC 2026 Workshops<br>Shanghai, China</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer id="footer" class="footer">
-    <div class="container footer-top pt-5 pb-3">
-      <h3 class="footer-brand">TAAUC 2026</h3>
-      <p class="footer-note">
-        Trustworthy Agentic AI Challenge 2026. Workshop-hosted challenge website prepared for UbiComp/ISWC 2026 in Shanghai.
-      </p>
-      <p class="footer-credits">
-        Visuals use free Unsplash photography under the <a href="https://unsplash.com/license">Unsplash License</a>.
-      </p>
+    <div class="copyright text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div>© Copyright <strong><span>TAAUC 2026</span></strong>. All Rights Reserved</div>
+        </div>
+      </div>
     </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
