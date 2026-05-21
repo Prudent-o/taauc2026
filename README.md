@@ -1,3 +1,19 @@
-# Trustworthy Agentic AI Challenge 2026
+# TAAUC 2026 Website
 
-Static website for the workshop-attached challenge.
+Static GitHub Pages site for the Trustworthy Agentic AI Challenge 2026.
+
+Live site target:
+- `https://prudent-o.github.io/taauc2026/`
+
+Main pages:
+- `index.html`
+- `overview.html`
+- `tracks.html`
+- `track-medical.html`
+- `track-privacy.html`
+- `timeline.html`
+- `program.html`
+- `organizers.html`
+- `participation.html`
+- `faq.html`
+- `contact.html`
