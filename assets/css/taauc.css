@@ -2,7 +2,7 @@
   --default-font: "IBM Plex Sans", sans-serif;
   --heading-font: "Cormorant Garamond", serif;
   --nav-font: "IBM Plex Sans", sans-serif;
-  --background-color: #f4efe8;
+  --background-color: #f7f4ee;
   --default-color: #2d2e32;
   --heading-color: #13213f;
   --accent-color: #b04a2d;
@@ -13,9 +13,7 @@
 }
 
 body {
-  background:
-    radial-gradient(circle at top left, rgba(196, 118, 84, 0.07), transparent 32%),
-    linear-gradient(180deg, #f5f1ea 0%, #f4efe8 45%, #efe8df 100%);
+  background: #f7f4ee;
 }
 
 body.scrolled .header {
@@ -63,14 +61,26 @@ body.scrolled .header {
   text-transform: uppercase;
 }
 
+.hero {
+  min-height: 0;
+  aspect-ratio: 16 / 9;
+  padding-top: 100px;
+  background: #091225;
+}
+
+.hero img {
+  object-fit: contain;
+  object-position: center center;
+  background: #091225;
+}
+
 .hero::before {
-  background:
-    linear-gradient(180deg, rgba(4, 10, 24, 0.26) 0%, rgba(6, 14, 31, 0.58) 38%, rgba(9, 20, 42, 0.88) 100%);
+  background: linear-gradient(180deg, rgba(4, 10, 24, 0.2) 0%, rgba(6, 14, 31, 0.5) 40%, rgba(9, 20, 42, 0.82) 100%);
 }
 
 .hero .container h1 {
   max-width: 980px;
-  font-size: clamp(48px, 7vw, 86px);
+  font-size: clamp(48px, 7vw, 84px);
   font-weight: 600;
   letter-spacing: 0.01em;
   line-height: 0.95;
@@ -85,19 +95,19 @@ body.scrolled .header {
 }
 
 .hero-summary {
-  margin-top: 34px;
-  width: min(1100px, calc(100% - 32px));
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  background: rgba(9, 18, 37, 0.68);
-  backdrop-filter: blur(18px);
-  border-radius: 22px;
-  padding: 28px 30px;
-  box-shadow: 0 18px 50px rgba(6, 16, 37, 0.24);
+  margin-top: 30px;
+  width: min(960px, calc(100% - 32px));
+  border: 0;
+  background: none;
+  backdrop-filter: none;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
 }
 
 .hero-summary p {
   margin: 0;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.8;
   color: rgba(255, 255, 255, 0.9);
 }
@@ -106,29 +116,31 @@ body.scrolled .header {
   margin-top: 18px;
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  justify-content: center;
+  gap: 14px 22px;
 }
 
 .hero-chip {
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 999px;
-  padding: 10px 16px;
-  background: rgba(255, 255, 255, 0.08);
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  background: none;
   color: rgba(255, 255, 255, 0.92);
-  font-size: 13px;
-  letter-spacing: 0.03em;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
 }
 
 .about-info {
-  margin-bottom: 54px;
+  margin-bottom: 36px;
 }
 
 .about-info .container {
-  background: rgba(8, 17, 37, 0.92);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 24px;
-  padding: 26px 28px;
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+  background: rgba(8, 17, 37, 0.86);
+  border: 0;
+  border-radius: 0;
+  padding: 24px 28px;
+  box-shadow: none;
 }
 
 .about-info h2 {
@@ -143,8 +155,12 @@ body.scrolled .header {
   margin-bottom: 6px;
 }
 
+.section-title {
+  padding-bottom: 34px;
+}
+
 .section-title h2 {
-  font-size: 44px;
+  font-size: 40px;
   font-weight: 600;
 }
 
@@ -164,10 +180,10 @@ body.scrolled .header {
 .contact-panel,
 .timeline-panel,
 .venue-card {
-  background: rgba(255, 255, 255, 0.82);
-  border: 1px solid rgba(19, 33, 63, 0.08);
-  border-radius: 22px;
-  box-shadow: 0 18px 42px rgba(24, 28, 43, 0.08);
+  background: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .info-card,
@@ -177,7 +193,18 @@ body.scrolled .header {
 .contact-panel,
 .venue-card,
 .callout-panel {
-  padding: 24px;
+  padding: 0;
+}
+
+.info-card,
+.track-slab,
+.timeline-panel,
+.contact-panel,
+.venue-card,
+.callout-panel,
+.profile-panel {
+  padding-top: 18px;
+  border-top: 1px solid rgba(19, 33, 63, 0.12);
 }
 
 .info-card h3,
@@ -187,7 +214,7 @@ body.scrolled .header {
 .venue-card h3,
 .faq-card summary {
   margin-bottom: 10px;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 600;
 }
 
@@ -206,16 +233,16 @@ body.scrolled .header {
 }
 
 .grid-gap {
-  row-gap: 24px;
+  row-gap: 40px;
 }
 
 .link-arrow {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin-top: 16px;
-  font-size: 13px;
-  letter-spacing: 0.12em;
+  margin-top: 12px;
+  font-size: 12px;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--heading-color);
 }
@@ -226,9 +253,9 @@ body.scrolled .header {
 
 .track-tag {
   display: inline-block;
-  margin-bottom: 12px;
-  font-size: 12px;
-  letter-spacing: 0.16em;
+  margin-bottom: 10px;
+  font-size: 11px;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: #8a4e35;
 }
@@ -242,27 +269,34 @@ body.scrolled .header {
 
 .bullet-list li,
 .plain-list li {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   line-height: 1.75;
-}
-
-.callout-panel {
-  background: linear-gradient(135deg, rgba(19, 33, 63, 0.96), rgba(35, 54, 94, 0.94));
-  color: rgba(255, 255, 255, 0.92);
 }
 
 .callout-panel h3,
 .callout-panel p,
 .callout-panel strong {
-  color: rgba(255, 255, 255, 0.94);
+  color: inherit;
 }
 
 .page-title {
-  padding: 168px 0 88px;
+  padding: 0;
+  aspect-ratio: 16 / 9;
+  min-height: 360px;
+  display: flex;
+  align-items: flex-end;
+  background-color: #091225;
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.page-title .container {
+  padding-bottom: 54px;
 }
 
 .page-title::before {
-  background: linear-gradient(180deg, rgba(4, 10, 24, 0.4), rgba(8, 17, 37, 0.84));
+  background: linear-gradient(180deg, rgba(4, 10, 24, 0.14), rgba(8, 17, 37, 0.82));
 }
 
 .page-title h1 {
@@ -308,12 +342,12 @@ body.scrolled .header {
 
 .profile-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 34px 28px;
 }
 
 .profile-panel {
-  padding: 24px;
+  padding-top: 18px;
 }
 
 .profile-head {
@@ -324,12 +358,12 @@ body.scrolled .header {
 }
 
 .profile-head img {
-  width: 88px;
-  height: 88px;
-  flex: 0 0 88px;
-  border-radius: 18px;
+  width: 84px;
+  height: 84px;
+  flex: 0 0 84px;
+  border-radius: 0;
   object-fit: cover;
-  box-shadow: 0 12px 30px rgba(18, 27, 48, 0.12);
+  box-shadow: none;
 }
 
 .profile-affiliation,
@@ -401,10 +435,12 @@ body.scrolled .header {
 
 .venue-visual {
   width: 100%;
-  height: 320px;
-  object-fit: cover;
-  border-radius: 18px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  border-radius: 0;
   margin-bottom: 18px;
+  background: #091225;
 }
 
 .credit-list {
@@ -473,8 +509,14 @@ body.scrolled .header {
 }
 
 @media (max-width: 991px) {
-  .hero-summary {
-    padding: 22px 20px;
+  .hero {
+    aspect-ratio: auto;
+    min-height: 520px;
+  }
+
+  .hero img {
+    object-fit: contain;
+    object-position: center center;
   }
 
   .profile-grid {
@@ -482,26 +524,16 @@ body.scrolled .header {
   }
 
   .page-title {
-    padding-top: 144px;
+    aspect-ratio: auto;
+    min-height: 420px;
+    background-size: contain !important;
+    background-position: center center;
   }
 }
 
 @media (max-width: 767px) {
   .hero .container h1 {
     line-height: 1;
-  }
-
-  .about-info .container,
-  .hero-summary,
-  .info-card,
-  .track-slab,
-  .timeline-panel,
-  .callout-panel,
-  .contact-panel,
-  .faq-card,
-  .venue-card,
-  .profile-panel {
-    border-radius: 18px;
   }
 
   .site-brand img {
