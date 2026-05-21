@@ -361,19 +361,18 @@ body.scrolled .header {
 }
 
 .page-title {
-  padding: 0;
-  aspect-ratio: 16 / 9;
-  min-height: 360px;
-  display: flex;
-  align-items: flex-start;
+  padding: 132px 0 34px;
+  aspect-ratio: auto;
+  min-height: 320px;
+  display: block;
   background-color: #091225;
   background-size: contain !important;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
 }
 
 .page-title .container {
-  padding-top: 142px;
+  padding-top: 0;
   padding-bottom: 0;
 }
 
@@ -623,14 +622,11 @@ body.scrolled .header {
   }
 
   .page-title {
-    aspect-ratio: auto;
-    min-height: 420px;
+    min-height: 300px;
+    padding-top: 126px;
+    padding-bottom: 30px;
     background-size: contain !important;
-    background-position: center center;
-  }
-
-  .page-title .container {
-    padding-top: 132px;
+    background-position: center top;
   }
 }
 
@@ -648,7 +644,9 @@ body.scrolled .header {
     letter-spacing: 0.12em;
   }
 
-  .page-title .container {
-    padding-top: 122px;
+  .page-title {
+    min-height: 280px;
+    padding-top: 118px;
+    padding-bottom: 26px;
   }
 }
