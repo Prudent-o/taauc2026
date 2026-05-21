@@ -2,9 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="refresh" content="0; url=index.html#tracks">
-  <title>Redirecting…</title>
-  <script>location.replace('index.html#tracks');</script>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Tracks | TAAUC 2026</title>
+  <meta name="description" content="Track index for the Trustworthy Agentic AI Challenge 2026.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/site/taauc-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/taauc.css" rel="stylesheet">
 </head>
-<body></body>
+<body>
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center me-auto site-brand">
+        <img src="assets/img/site/taauc-mark.svg" alt="TAAUC 2026">
+        <div class="brand-text"><span class="brand-kicker">UbiComp/ISWC 2026</span><h1 class="sitename">TAAUC 2026</h1></div>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="overview.html">Overview</a></li>
+          <li><a href="tracks.html" class="active">Tracks</a></li>
+          <li><a href="timeline.html">Dates</a></li>
+          <li><a href="program.html">Program</a></li>
+          <li><a href="organizers.html">Organizers</a></li>
+          <li><a href="participation.html">Participation</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="page-title dark-background" style="background-image: url('assets/img/site/header-shanghai-aerial-night.jpg');">
+      <div class="container position-relative">
+        <p class="page-kicker">Confirmed Tracks</p>
+        <h1>Track Pages</h1>
+        <p class="page-lead">Each track has its own page so that the final task definition, starter material, and evaluation notes can be updated without touching unrelated parts of the site.</p>
+        <nav class="breadcrumbs"><ol><li><a href="index.html">Home</a></li><li>Tracks</li></ol></nav>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="row grid-gap">
+          <div class="col-lg-6">
+            <div class="track-slab h-100">
+              <span class="track-tag">Track 1</span>
+              <h3>Medical Agent Track</h3>
+              <p>This track studies trustworthy agent behavior in medical or health-related workflows. The public description already fixes the direction, while the final task package is still pending.</p>
+              <ul class="bullet-list">
+                <li>Safe action and intervention behavior</li>
+                <li>Reliable reasoning under stronger safety expectations</li>
+                <li>Protocol compliance and failure handling</li>
+              </ul>
+              <a class="link-arrow" href="track-medical.html">Open track page <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="track-slab h-100">
+              <span class="track-tag">Track 2</span>
+              <h3>Text Privacy Compliance Track</h3>
+              <p>This track studies compliant handling of sensitive information in text. The public description is stable, while the final task package is still pending.</p>
+              <ul class="bullet-list">
+                <li>Privacy protection and policy consistency</li>
+                <li>Utility preservation after processing</li>
+                <li>Robustness to ambiguous or difficult cases</li>
+              </ul>
+              <a class="link-arrow" href="track-privacy.html">Open track page <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer"><div class="container footer-top pt-5 pb-3"><p class="footer-credits">TAAUC 2026 track index.</p></div></footer>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
 </html>
