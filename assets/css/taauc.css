@@ -38,6 +38,7 @@ body {
   align-items: center;
   gap: 12px;
   text-decoration: none;
+  flex: 0 0 auto;
 }
 
 .site-brand img {
@@ -61,20 +62,19 @@ body {
 
 .site-brand .sitename {
   margin: 0;
-  font-size: 24px;
+  font-size: 20px;
   color: #ffffff;
   letter-spacing: 0.03em;
 }
 
-.navmenu a {
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  font-size: 14px;
+.brand-kicker {
+  display: none;
 }
 
-.cta-btn {
-  background: var(--accent-color);
-  border-color: var(--accent-color);
+.navmenu a {
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-size: 13px;
 }
 
 .hero img {
@@ -101,7 +101,7 @@ body {
 .hero .hero-note {
   max-width: 860px;
   margin-top: 22px;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.8;
   color: rgba(255, 255, 255, 0.9);
 }
@@ -144,37 +144,46 @@ body {
 }
 
 .content-card,
-.person-card,
 .contact .info-item {
   height: 100%;
   border: 1px solid rgba(14, 27, 77, 0.1);
   background: #ffffff;
-  box-shadow: 0 14px 35px rgba(14, 27, 77, 0.05);
+  box-shadow: 0 10px 24px rgba(14, 27, 77, 0.04);
 }
 
-.content-card,
-.person-card {
+.content-card {
   padding: 26px 24px;
 }
 
 .content-card h3,
-.person-card h3 {
+.person-row h3 {
   font-size: 28px;
   margin-bottom: 12px;
 }
 
 .content-card p,
-.person-card p {
+.person-row p {
   margin-bottom: 0;
   line-height: 1.8;
 }
 
-.person-card .card-meta {
+.person-list {
+  max-width: 920px;
+  margin: 0 auto;
+  border-top: 1px solid rgba(14, 27, 77, 0.1);
+}
+
+.person-row {
+  padding: 22px 0;
+  border-bottom: 1px solid rgba(14, 27, 77, 0.1);
+}
+
+.person-row .card-meta {
   margin-bottom: 10px;
   color: #6a7280;
 }
 
-.person-card p + p {
+.person-row p + p {
   margin-top: 10px;
 }
 
@@ -195,6 +204,27 @@ body {
 
 .contact .info-item i {
   color: var(--accent-color);
+}
+
+@media (min-width: 1200px) {
+  .header .container-xl {
+    gap: 24px;
+  }
+
+  .navmenu {
+    flex: 1 1 auto;
+    margin-left: auto;
+  }
+
+  .navmenu ul {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .navmenu > ul > li {
+    padding: 12px 10px;
+  }
 }
 
 .footer {
@@ -221,11 +251,11 @@ body {
 
 @media (max-width: 991px) {
   .site-brand .sitename {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .hero .hero-note {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .venue-map.single-map iframe {
