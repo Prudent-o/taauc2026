@@ -10,9 +10,11 @@ Recommended URL:
 
 Files used for direct static hosting:
 - `index.html`
-- `site.css`
+- `assets/css/main.css`
+- `assets/css/taauc.css`
 
-Optional Jekyll source is also kept in the repo, but static hosting does not depend on it.
+The site now uses a single-page structure with section anchors.
+Legacy subpages remain only as redirect stubs to the matching section on `index.html`.
 
 Typical publish steps when network is available:
 1. Create a new GitHub repository.
