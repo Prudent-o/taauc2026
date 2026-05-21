@@ -16,6 +16,11 @@ body {
   background: #ffffff;
 }
 
+.light-background {
+  --background-color: #ffffff;
+  background-color: #ffffff !important;
+}
+
 body.scrolled .header {
   background: rgba(11, 21, 43, 0.95);
   backdrop-filter: blur(18px);
